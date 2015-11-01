@@ -1,0 +1,26 @@
+{
+    "name": "fuzz/laravel-s3",
+    "description": "",
+    "authors": [
+        {
+            "name": "Fuzz Productions",
+            "email": "fuzzweb@fuzzproductions.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.fuzzhq.com:web-modules/s3.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "~4.2",
+        "fuzz/s3": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fuzz\\LaravelS3\\": "src/"
+        }
+    }
+}
