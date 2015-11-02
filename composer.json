@@ -10,7 +10,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@gitlab.fuzzhq.com:web-modules/s3.git"
+            "url": "git@github.com:Flux-App/s3.git"
         }
     ],
     "require": {
