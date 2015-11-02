@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.5.0",
         "illuminate/support": "~4.2",
-        "fuzz/s3": "~1.1"
+        "fuzz/s3": "master"
     },
     "autoload": {
         "psr-4": {
